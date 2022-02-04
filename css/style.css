@@ -57,7 +57,7 @@ main div>h1,p {
     padding:15px;
 }
 
-.column {
+.column-2 {
     float: left;
     width: 50%;
     padding: 10px;
@@ -66,6 +66,24 @@ main div>h1,p {
     border: 2px black solid;
   }
   
+  .column-3 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 
+    background-color: gray;
+    border: 2px black solid;
+  }
+
+  .column-4 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 300px; 
+    background-color: gray;
+    border: 2px black solid;
+  }
+
   .row:after {
     content: "";
     display: table;
