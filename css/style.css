@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Hind&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Hind', sans-serif;
 }
 
 a {
@@ -12,6 +15,10 @@ a {
 a:hover, li:hover {
     color:black;
     background-color: white;
+}
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
 }
 
 ul {
@@ -51,6 +58,10 @@ main div {
     color: white;
     height: 200px;
     text-align: center;
+}
+
+main div p {
+    padding: 0px 400px;
 }
 
 main div>h1,p {
